@@ -36,7 +36,7 @@ from scipy.spatial import distance as dist
 MODEL_PATH       = "drowsiness_model.pkl"
 
 WINDOW_SIZE      = 300   # ~2 seconds at 30fps
-DROWSY_THRESHOLD = 0.65  # 65% of window must be drowsy to alert
+DROWSY_THRESHOLD = 0.60  # 65% of window must be drowsy to alert
 COOLDOWN_SECONDS = 1.0
 DISPLAY_WIDTH    = 960
 FPS_SMOOTH       = 15

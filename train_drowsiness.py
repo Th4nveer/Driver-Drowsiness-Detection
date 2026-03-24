@@ -181,7 +181,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train drowsiness detection model")
     parser.add_argument(
         "--csv",
-        default="cleaned_dataset.csv",
+        default="cleaned_dataset(1).csv",
         help='Path to cleaned CSV. Example: --csv "cleaned_dataset(1).csv"'
     )
     args = parser.parse_args()
